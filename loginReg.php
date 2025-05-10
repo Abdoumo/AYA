@@ -401,6 +401,35 @@
 					<label for="prof_title">Titre professionnel</label>
 					<input type="text" class="form-control" id="prof_title" name="prof_title" value="<?php echo $prof_title; ?>" placeholder="Entrez votre titre professionnel">
 				</div>
+				<div class="form-group">
+					<label for="profile_sum">Résumé du profil</label>
+					<textarea class="form-control" id="profile_sum" name="profile_sum" placeholder="Décrivez-vous brièvement"><?php echo $profile_sum; ?></textarea>
+				</div>
+				<div class="form-group">
+					<label for="education">Éducation</label>
+					<input type="text" class="form-control" id="education" name="education" value="<?php echo $education; ?>" placeholder="Votre parcours éducatif">
+				</div>
+				<div class="form-group">
+					<label for="experience">Expérience</label>
+					<input type="text" class="form-control" id="experience" name="experience" value="<?php echo $experience; ?>" placeholder="Votre expérience professionnelle">
+				</div>
+				<div class="form-group">
+					<label for="skills">Compétences</label>
+					<input type="text" class="form-control" id="skills" name="skills" value="<?php echo $skills; ?>" placeholder="Vos compétences principales">
+				</div>
+				<div class="form-group">
+					<label>Type d'utilisateur</label>
+					<div class="radio-group">
+						<div class="radio-option">
+							<input type="radio" name="usertype" value="freelancer" id="reg-freelancer">
+							<label for="reg-freelancer">Prostateur</label>
+						</div>
+						<div class="radio-option">
+							<input type="radio" name="usertype" value="employer" id="reg-employer">
+							<label for="reg-employer">Client</label>
+						</div>
+					</div>
+				</div>
 				<button type="submit" name="register" class="btn-primary">Créer un compte</button>
 			</form>
 			<div class="form-switch">
