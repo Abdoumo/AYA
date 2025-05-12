@@ -52,9 +52,9 @@ else{
 			<a href="loginReg.php" class="btn btn-info navbar-btn navbar-right">S'inscrire</a>
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="index.php">Accueil</a></li>
+				<li><a href="allJob.php">toutes les travailles</a></li>
 				<li><a href="#how">Comment ça marche</a></li>
 				<li><a href="#faq">FAQ</a></li>
-				<li><a href="loginReg.php">Connexion</a></li>
 			</ul>
 		</div>		
 	</div>	

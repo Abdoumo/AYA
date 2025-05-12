@@ -60,8 +60,43 @@ if(isset($_POST["s_email"])){
 	<link rel="stylesheet" type="text/css" href="awesome/css/fontawesome-all.min.css">
 
 <style>
-	body{padding-top: 3%;margin: 0;}
-	.card{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); background:#fff}
+    body {
+        padding-top: 3%;
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+    }
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background: #fff;
+        border-radius: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    }
+    .card-body {
+        padding: 20px;
+    }
+    .card-body img {
+        border: 3px solid #007bff;
+    }
+    .card-body h4 {
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    .card-body p {
+        color: #555;
+    }
+    .btn-info {
+        background-color: #007bff;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
+    .btn-info:hover {
+        background-color: #0056b3;
+    }
 </style>
 
 </head>

@@ -14,10 +14,10 @@ if(isset($_SESSION["Username"])){
 		$textBtn="Edit the job offer";
 	}
 }
-else{
-    $username="";
-	//header("location: index.php");
-}
+// else{
+//     $username="";
+// 	//header("location: index.php");
+// }
 
 if(isset($_POST["jid"])){
 	$_SESSION["job_id"]=$_POST["jid"];

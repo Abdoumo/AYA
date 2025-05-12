@@ -173,7 +173,6 @@
 
     <div class="container" style="margin-top: 100px;">
         <div class="wonder-card">
-            <h2 class="wonder-title">Connexion</h2>
             <form id="loginForm" method="post" class="form-horizontal">
                 <div class="error-message">
                     <p><?php echo $errorMsg; ?></p>

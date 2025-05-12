@@ -66,7 +66,7 @@
 		background: white;
 		border-radius: 16px;
 		box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-		padding: 2rem;
+		padding: 3rem;
 		transition: all 0.3s ease;
 		position: absolute;
 		width: 100%;
@@ -89,7 +89,7 @@
 	}
 
 	.auth-header h1 {
-		font-size: 1.875rem;
+		font-size: 2.5rem;
 		font-weight: 700;
 		color: var(--text);
 		margin-bottom: 0.5rem;
@@ -97,7 +97,7 @@
 
 	.auth-header p {
 		color: var(--secondary);
-		font-size: 0.875rem;
+		font-size: 1.25rem;
 	}
 
 	.form-group {
@@ -106,7 +106,7 @@
 
 	.form-group label {
 		display: block;
-		font-size: 0.875rem;
+		font-size: 1.25rem;
 		font-weight: 500;
 		margin-bottom: 0.5rem;
 		color: var(--text);
@@ -114,10 +114,10 @@
 
 	.form-control {
 		width: 100%;
-		padding: 0.75rem 1rem;
+		padding: 1rem 1.25rem;
 		border: 1px solid var(--border);
 		border-radius: 8px;
-		font-size: 0.875rem;
+		font-size: 1.25rem;
 		transition: all 0.2s ease;
 	}
 
@@ -129,13 +129,13 @@
 
 	.btn-primary {
 		width: 100%;
-		padding: 0.75rem 1rem;
+		padding: 1rem 1.25rem;
 		background-color: var(--primary);
 		color: white;
 		border: none;
 		border-radius: 8px;
 		font-weight: 500;
-		font-size: 0.875rem;
+		font-size: 1.25rem;
 		cursor: pointer;
 		transition: all 0.2s ease;
 	}
@@ -147,7 +147,7 @@
 	.form-switch {
 		text-align: center;
 		margin-top: 1.5rem;
-		font-size: 0.875rem;
+		font-size: 1.25rem;
 		color: var(--secondary);
 	}
 
@@ -291,7 +291,6 @@
 			<a href="loginReg.php" class="btn btn-info navbar-btn navbar-right" data-toggle="modal" data-target="#registerModal">S'inscrire</a>
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="index.php">Accueil</a></li>
-				<li><a href="loginReg.php" data-toggle="modal" data-target="#loginModal">Connexion</a></li>
 			</ul>
 		</div>		
 	</div>	
